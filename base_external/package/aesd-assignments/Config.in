@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_AESD_ASSIGNMENTS
+	bool "aesd-assignments"
+	help
+	  Includes ssd1306 display driver for a Raspberry Pi 5

@@ -1,0 +1,17 @@
+kernel=Image
+arm_64bit=1
+disable_overscan=1
+
+# Display
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+disable_fw_kms_setup=1
+
+# Performance
+arm_boost=1
+
+# Peripherals
+dtparam=i2c_arm=on
+dtparam=i2c_arm_baudrate=400000
+display_auto_detect=1
+dtoverlay=ssd1306
