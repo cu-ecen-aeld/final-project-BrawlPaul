@@ -15,3 +15,4 @@ dtparam=i2c_arm=on
 dtparam=i2c_arm_baudrate=400000
 display_auto_detect=1
 dtoverlay=ssd1306
+dtoverlay=dpad
